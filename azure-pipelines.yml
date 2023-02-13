@@ -29,7 +29,7 @@ steps:
     azureSubscription: 'sc-arm-u7'
     scriptType: 'bash'
     scriptLocation: 'inlineScript'
-    inlineScript: 'az vm create --resource-group az400 --name demovm1 --image win2016datacenter --admin-username atingupta2005 --admin-password $(vmpasswordu7)'
+    inlineScript: 'az vm create --resource-group rgteam2 --name demovmu7 --image win2016datacenter --admin-username u07 --admin-password $(vmpasswordu7)'
 
 - task: NuGetCommand@2
   inputs:
