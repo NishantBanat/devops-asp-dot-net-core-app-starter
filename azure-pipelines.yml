@@ -20,8 +20,8 @@ steps:
 - task: AzureKeyVault@2
   inputs:
     azureSubscription: 'sc-arm-u7'
-    KeyVaultName: 'vmpasswordu7'
-    SecretsFilter: '*'
+    KeyVaultName: 'kvteam2'
+    SecretsFilter: 'vmpasswordu7'
     RunAsPreJob: true
 
 - task: AzureCLI@2
